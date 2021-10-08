@@ -4,9 +4,9 @@ import Section from '../section/section';
 
 const Page = (props: IPage): JSX.Element => {
   const sections = props.sections.map((section) => (
-    <Section {...section}></Section>
+    <Section key={section.id} {...section}></Section>
   ));
-  
+
   return <main className="page">{sections}</main>;
 };
 

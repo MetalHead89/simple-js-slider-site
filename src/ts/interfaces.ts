@@ -3,6 +3,7 @@ interface IPage {
 }
 
 interface ISection {
+  id: number;
   items: IPageItem[];
 }
 
