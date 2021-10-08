@@ -7,4 +7,8 @@ interface IPageItem {
   value: string;
 }
 
-export { IPage };
+interface IState {
+  page: IPage;
+}
+
+export { IState, IPage };
