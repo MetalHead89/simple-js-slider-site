@@ -1,4 +1,8 @@
 interface IPage {
+  sections: ISection[];
+}
+
+interface ISection {
   items: IPageItem[];
 }
 
@@ -11,4 +15,4 @@ interface IState {
   page: IPage;
 }
 
-export { IState, IPage };
+export { IState, IPage, ISection };

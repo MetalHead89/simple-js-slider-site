@@ -3,7 +3,7 @@ import { IState } from '../../ts/interfaces';
 import Page from './page';
 
 const mapStateToProps = (state: IState) => {
-  return { items: state.page.items };
+  return { sections: state.page.sections };
 };
 
 const PageContainer = connect(mapStateToProps)(Page);

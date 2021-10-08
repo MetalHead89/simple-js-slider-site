@@ -1,9 +1,11 @@
 {
-  "pageItems": [
-    { "type": "header1", "value": "Simple JS Slider" },
-    {
-      "type": "paragraph",
-      "value": "Простой в использовании слайдер для быстрого выбора значения или диапазона значений."
-    }
+  "sections": [
+    [
+      { "type": "header1", "value": "Simple JS Slider" },
+      {
+        "type": "paragraph",
+        "value": "Простой в использовании слайдер для быстрого выбора значения или диапазона значений."
+      }
+    ]
   ]
 }
