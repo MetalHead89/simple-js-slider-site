@@ -2,6 +2,10 @@ import React from 'react';
 import { ISection } from '../../ts/interfaces';
 
 const Section = (props: ISection): JSX.Element => {
+  const getItems = (items: string[]): JSX.Element[] => {
+    return items.map((item) => <li>{item}</li>);
+  };
+
   const items = props.items.map((item) => {
     if (item.type === 'header1') {
       return <h1>{item.value}</h1>;
@@ -16,11 +20,7 @@ const Section = (props: ISection): JSX.Element => {
     }
 
     if (item.type === 'ul') {
-      return (
-        <ul>
-          <li>{item.value}</li>
-        </ul>
-      );
+      return <ul>{getItems(item.value)}</ul>;
     }
   });
   return <section className="section">{items}</section>;
