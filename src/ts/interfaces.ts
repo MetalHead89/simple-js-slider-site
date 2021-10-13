@@ -9,7 +9,7 @@ interface ISection {
 
 interface IPageItem {
   type: string;
-  value: string;
+  value: any;
 }
 
 interface IState {
