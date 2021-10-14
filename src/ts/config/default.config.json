@@ -25,6 +25,44 @@
           ]
         }
       ]
+    },
+    {
+      "id": 3,
+      "items": [
+        { "type": "header2", "value": "Установка" },
+        {
+          "type": "paragraph",
+          "value": "Внимание! Для работы плагина, проект должен поддерживать работу jQuery. Если во время работы со слайдером возникают ошибки, необходимо убедиться, что выполнена установка соответствующих пакетов и произведена настройка сборщика для работы с ними."
+        },
+        {
+          "type": "paragraph",
+          "value": "Для добавления плагина в проект необходимо:"
+        },
+        {
+          "type": "paragraph",
+          "value": "1. Установить npm пакет simple-js-slider:"
+        },
+        {
+          "type": "paragraph",
+          "value": "npm i simple-js-slider"
+        },
+        {
+          "type": "paragraph",
+          "value": "2. Произвести импорт плагина в точке входа:"
+        },
+        {
+          "type": "paragraph",
+          "value": "import 'simple-js-slider'"
+        },
+        {
+          "type": "paragraph",
+          "value": "3. Произвести импорт стилей в точке входа:"
+        },
+        {
+          "type": "paragraph",
+          "value": "import 'simple-js-slider/index.css'"
+        }
+      ]
     }
   ]
 }
