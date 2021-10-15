@@ -63,12 +63,12 @@
           "value": "import 'simple-js-slider/index.css'"
         }
       ]
-    }
+    },
     {
       "id": 4,
-      "items":[
-        {"type": "header2", "value": "Стандартные настройки слайдера"},
-        {"type": "slider", "value": null}
+      "items": [
+        { "type": "header2", "value": "Стандартные настройки слайдера" },
+        { "type": "slider", "value": null }
       ]
     }
   ]
