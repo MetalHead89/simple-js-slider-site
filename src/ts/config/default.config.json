@@ -64,5 +64,12 @@
         }
       ]
     }
+    {
+      "id": 4,
+      "items":[
+        {"type": "header2", "value": "Стандартные настройки слайдера"},
+        {"type": "slider", "value": null}
+      ]
+    }
   ]
 }
