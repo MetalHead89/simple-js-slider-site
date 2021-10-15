@@ -16,6 +16,11 @@ module.exports = {
     extensions: ['.ts', '.tsx', '.js', '.css', '.scss'],
   },
   plugins: [
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+      'window.jQuery': 'jquery',
+    }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './src/index.html'),
       filename: 'index.html',
